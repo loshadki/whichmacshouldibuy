@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+        <meta name="robots" content="index,follow">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/main.css">
+        <script src="/scripts/base.js"></script>
+        <script src="/scripts/product.js"></script>
+        <script src="/scripts/question.js"></script>
+        <script src="/scripts/app.js"></script>
+        {{ if not .Site.IsServer }}
+        
+        {{ end }}
+        {{ hugo.Generator }}
+    </head>
+    <body>
+        <header class="container dark-background">
+            <div class="content-max-width">
+                <h1>
+                    <a href="/">
+                        Which Mac Should I Buy?
+                    </a>
+                </h1>
+            </div>
+        </header>
+        <div style="clear: both"></div>
+
+
+        <div class="container main">
+            <div class="content-max-width">
+                <h2 style="margin-bottom: 0">
+                    Planning to purchase a mac?
+                </h2>
+                <sub>
+                    We can help you to choose the model and configuration.
+                </sub>
+
+                <div id="product-selection-wizard" class="questions-list">
+
+                </div>
+
+                <ul id="product-list" class="flat">
+
+                </ul>
+            </div>
+        </div>
+
+        <div style="clear: both" ></div>
+
+        <footer class="container dark-background">
+            <div class="content-max-width">
+                <div>
+                    <p>Disclaimer: this website is not affiliated nor endorsed by Apple Inc.</p>
+                    <p>Provided by <a href="https://loshadki.app">loshadki.app</a></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

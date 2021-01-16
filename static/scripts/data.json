@@ -1,0 +1,172 @@
+{
+  "version": 1,
+  "products": [
+    {
+      "id": "product_macbookair",
+      "name": "MacBook Air",
+      "icon": "macbookair.svg",
+      "supports": [
+        "laptop",
+        "external_monitor",
+        "built_in_monitor",
+        "price_below_1000",
+        "price_below_1500",
+        "price_below_2500",
+        "price_below_5000"
+      ]
+    },
+    {
+      "id": "product_macbook_pro_13",
+      "name": "MacBook Pro 13\"",
+      "icon": "macbook_pro_13.svg",
+      "supports": [
+        "laptop",
+        "external_monitor",
+        "built_in_monitor",
+        "price_below_1500",
+        "price_below_2500",
+        "price_below_5000"
+      ]
+    },
+    {
+      "id": "product_macbook_pro_16",
+      "name": "MacBook Pro 16\"",
+      "icon": "macbook_pro_16.svg",
+      "supports": [
+        "laptop",
+        "external_monitor",
+        "built_in_monitor",
+        "price_below_2500",
+        "price_below_5000"
+      ]
+    },
+    {
+      "id": "product_macmini",
+      "name": "Mac Mini",
+      "icon": "macmini.svg",
+      "supports": [
+        "desktop",
+        "external_monitor",
+        "price_below_1000",
+        "price_below_1500",
+        "price_below_2500",
+        "price_below_5000"
+      ]
+    },
+    {
+      "id": "product_imac",
+      "name": "iMac",
+      "icon": "imac.svg",
+      "supports": [
+        "desktop",
+        "external_monitor",
+        "built_in_monitor",
+        "price_below_1500",
+        "price_below_2500",
+        "price_below_5000"
+      ]
+    },
+    {
+      "id": "product_imac_pro",
+      "name": "iMac Pro",
+      "icon": "imac_pro.svg",
+      "supports": [
+        "desktop",
+        "external_monitor",
+        "built_in_monitor"
+      ]
+    },
+    {
+      "id": "product_mac_pro",
+      "name": "Mac Pro",
+      "icon": "mac_pro.svg",
+      "supports": [
+        "desktop",
+        "external_monitor"
+      ]
+    }
+  ],
+  "productSelection": [
+    {
+      "question": "Do you know which mac you want to get?",
+      "description": "If you know for sure which product you want to get, we can help you to select a configuration.",
+      "selection": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    {
+      "question": "Do you know if you want to get a laptop or a desktop?",
+      "description": "Are you planning to care it with you on vacations or use it in coffee shop? Choose laptop.",
+      "selection": [
+        {
+          "answer": "Laptop",
+          "setRequirements": ["laptop"]
+        },
+        {
+          "answer": "Desktop",
+          "setRequirements": ["desktop"]
+        },
+        {
+          "answer": "Not sure"
+        }
+      ]
+    },
+    {
+      "question": "What is your price range for a mac?",
+      "description": "Assuming we are looking for a new mac.",
+      "selection": [
+        {
+          "answer": "Less than $1,000",
+          "setRequirements": ["price_below_1000"]
+        },
+        {
+          "answer": "Less than $1,500",
+          "setRequirements": ["price_below_1500"]
+        },
+        {
+          "answer": "Less than $2,500",
+          "setRequirements": ["price_below_2500"]
+        },
+        {
+          "answer": "Less than $5,000",
+          "setRequirements": ["price_below_5000"]
+        },
+        {
+          "answer": "Any price"
+        }
+      ]
+    },
+    {
+      "question": "Are you planning to use it with an external monitor?",
+      "description": "Are you already have a monitor or want to purchase an external monitor for it?",
+      "selection": [
+        {
+          "answer": "Yes",
+          "setRequirements": ["external_monitor"]
+        },
+        {
+          "answer": "No",
+          "setRequirements": ["built_in_monitor"]
+        }
+      ]
+    },
+    {
+      "question": "Do you want to play games on laptop?",
+      "selection": [
+        {
+          "answer": "Yes",
+          "changeState": "configuration"
+        },
+        {
+          "answer": "No",
+          "changeState": "product_selection"
+        }
+      ]
+    }
+  ]
+}

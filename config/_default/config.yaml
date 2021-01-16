@@ -1,0 +1,5 @@
+baseURL: "https://whichmacshouldibuy.com/"
+title: "Which Mac Should I Buy?"
+enableRobotsTXT: true
+disableKinds: ["taxonomy", "term"]
+enableGitInfo: true
