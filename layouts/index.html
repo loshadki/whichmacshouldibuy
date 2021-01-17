@@ -9,6 +9,7 @@
         <meta name="robots" content="index,follow">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/e3de4fd99f.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="/css/main.css">
         <script src="/scripts/base.js"></script>
         <script src="/scripts/product.js"></script>
@@ -34,14 +35,33 @@
         <div class="container main">
             <div class="content-max-width">
                 <article>
-                    <sub>
-                        Planning to purchase a Mac? Not sure about all the options and configurations?
-                        I can help you with that. This website is a pretty long read, but I hope to answer
-                        some of the questions. If you have not found an answer to your question, feel free
-                        to ask it by sending me an email
-                        <a href="mailto:whichmacshouldibuy@loshadki.app">whichmacshouldibuy@loshadki.app</a>,
-                        or you can create <a href="https://github.com/loshadki/whichmacshouldibuy/issues/new">an issue</a> on GitHub.
-                    </sub>
+                    <p>
+                        <sub>
+                            Planning to purchase a Mac? Not sure about all the options and configurations?
+                            I can help you with that. This website is a pretty long read, but I hope to answer
+                            some of the questions. If you have not found an answer to your question, feel free
+                            to ask it by sending me an
+                            <a href="mailto:whichmacshouldibuy@loshadki.app"><i class="far fa-envelope"></i> email</a>,
+                            or you can create <a href="https://github.com/loshadki/whichmacshouldibuy/issues/new">an issue</a>
+                            on <i class="fab fa-github"></i> GitHub.
+                        </sub>
+                    </p>
+
+                    {{ with .Lastmod }}
+                    <p style="margin: 0; padding: 0; text-align: center; font-size: 14px;">
+                        <sub>
+                            Last Updated: <time>{{ .Format "Jan 02, 2006"}}</time>
+                        </sub>
+                    </p>
+                    {{ end }}
+
+                    {{ with .ReadingTime }}
+                    <p style="margin: 0; padding: 0; text-align: center; font-size: 14px;">
+                        <sub>
+                            Reading time: {{ . }} minutes
+                        </sub>
+                    </p>
+                    {{ end }}
 
                     <p>Topics we are going to cover are</p>
 

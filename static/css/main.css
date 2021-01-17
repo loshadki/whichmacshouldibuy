@@ -41,6 +41,7 @@ p {
 
 article {
     min-height: 200px;
+    padding: 0 0 48px 0;
 }
 
 article h1, article h2, article h3 {

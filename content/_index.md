@@ -5,7 +5,8 @@
 
 ## Do you want to ask a community?
 
-Many people ask on forums (including Reddit) which mac they should get. But most of them never mention what they are 
+Many people ask on forums (including {{< fa fab reddit-alien >}} Reddit) which Mac they should get. 
+But most of them never mention what they are 
 going to use it for. If you are planning to ask, make sure to start with a description of what you plan to do with 
 this Mac. Are you a gamer, software developer, designer, or just planning to use it for web browsing?
 
@@ -32,8 +33,8 @@ iPad for software development. It is possible, but not easy.
 
 I said that Macs aren't cheap. Now I am going to say the opposite. Macs aren't that expensive. Many people compare 
 Mac to Windows laptops or desktops, which have similar configurations for half of the price. Disk space can be 
-similar 512Gb, and RAM and CPU, but there are always caveats. Disks can have different speeds. It can be NVME SSD 
-with 5Gb/s or regular SSD with speeds up to 500Mb/s, or it could be an HDD with speeds just up to 150Mb/s (that is 
+similar `512 GB`, and RAM and CPU, but there are always caveats. Disks can have different speeds. It can be NVME SSD 
+with `5 GB/s` or regular SSD with speeds up to `500 MB/s`, or it could be an HDD with speeds just up to `150 MB/s` (that is 
 a difference in 33 times). I will talk more about the Disk speed later.
 
 The same can be about the CPU, RAM speeds, and the most important, a screen.
@@ -50,7 +51,7 @@ might need to do.
 
 If you are still thinking between Windows or Mac and don't want to spend too much money, get a Windows laptop. 
 If you plan to play many games, and most AAA games, get a Windows laptop. You can get a decent Windows laptop 
-for about $1,000 with a discrete graphics card, which you can use to play some AAA games on high settings. 
+for about `$1,000` with a discrete graphics card, which you can use to play some AAA games on high settings. 
 It will be a little heavy, not easy to carry, not the best battery life, but it will be performant enough 
 and will do the job for you.
 
@@ -198,7 +199,7 @@ I will answer some questions about if it is ok to purchase a Mac with Apple Sili
   
 ### Which Intel CPU to Choose
 
-The cheapest Intel will probably do the work. If you have money, it is good to upgrade to a CPU with the highest numbers 
+The cheapest Intel will probably do the work. If you have money, it is good to upgrade to a CPU with the highest number
 of cores. As for small upgrades on GHz, you can check [Mac Benchmarks](https://browser.geekbench.com/mac-benchmarks).
 
 So why do you need more CPU cores? If you are running many tasks in parallel, or the software you use supports 
@@ -233,34 +234,34 @@ If you can afford it, go with MacBook Pro 13" Apple Silicon.
 You should consider MacBook Pro 16" only if you specifically need an Intel-based Mac (see above if you need it), with a 
 lot of RAM for running Virtual Machines, or if you need a laptop with a larger screen.
 
-Performance of MacBook Pro 13" with Apple Silicon for most of the tasks is comparable to the MacBook Pro 16" with 
+The performance of MacBook Pro 13" with Apple Silicon for most of the tasks is comparable to the MacBook Pro 16" with 
 the most expensive Intel CPU.
 
-## How much Memory (RAM) do you need? 8Gb, 16Gb, 32Gb...
+## How much Memory (RAM) do you need? 8 GB, 16 GB, 32 GB...
 
-When we talk between 8Gb, 16Gb, or 32Gb, I would suggest getting the maximum amount. Unfortunately, after you decide 
+When we talk between 8 GB, 16 GB, or 32 GB, I would suggest getting the maximum amount. Unfortunately, after you decide 
 on the memory, it is impossible to upgrade your Mac to include more Memory. And that is the main reason why you should 
-get the maximum. If we are talking about 32Gb and more, you probably know how much memory you need.
+get the maximum. If we are talking about 32 GB and more, you probably know how much memory you need.
 
-If you don't have a budget to purchase more memory and end up with 16Gb instead of 8Gb, is that bad? Not really. 
+If you don't have a budget to purchase more memory and end up with 16 GB instead of 8 GB, is that bad? Not really. 
 Does it mean you will not be able to open many documents on your Mac, with a lot of Tabs in the browser? Not at all. 
 That means that you more likely will find things to be slower or impossible to perform when you try to render a Video, 
 Watch a Movie, and work on a RAW Photo at the same time.
 
 Remember, I mentioned the speed of different types of Disks? All Mac Disks currently are shipping with NVMe SSD 
-(with 2-5Gb/s read speed), Memory (RAM) has speeds of 15-30Gb/s (10 times faster). CPU does not work with the data 
+(with 2-5 GB/s read speed), Memory (RAM) has speeds of 15-30 GB/s (10 times faster). CPU does not work with the data 
 on Disk. It requires Mac to load it in Memory (RAM).
 
 Let me provide you an example. This is an elementary example. I would not use it as a reference in your Ph.D. thesis. 
-You got a MacBook with 8Gb of Memory (RAM). You open 16 Tabs with Web Pages in your browser, and each 
-Tab consumes 0.5Gb of Memory. You have enough Memory to support it (16 * 0.5Gb equal to 8Gb). What if you need 
-to open another Page in the Browser? You only have 8Gb of Memory, which is not enough to open one more. This means 
+You got a MacBook with 8 GB of Memory (RAM). You open 16 Tabs with Web Pages in your browser, and each 
+Tab consumes 0.5 GB of Memory. You have enough Memory to support it (16 * 0.5 GB equal to 8 GB). What if you need 
+to open another Page in the Browser? You only have 8 GB of Memory, which is not enough to open one more. This means 
 that the Browser and Mac will have to decide how to provide a memory for a new Page:
 
 - One way is to cache some previous Tabs (Web Pages) on Disk (this is called a Swap memory), releasing the RAM Memory, 
   allowing CPU to work with new Page. If you switch back to the Tab that was cached on Disk, Mac will need to cache
-  another Tab on Disk and load the one you need from the Disk back to Memory. We know that our Disk provides 2Gb/s 
-  speed at least, so saving and loading 0.5Gb will take it around half of a second. Will you notice that? Probably not. 
+  another Tab on Disk and load the one you need from the Disk back to Memory. We know that our Disk provides 2 GB/s 
+  speed at least, so saving and loading 0.5 GB will take it around half of a second. Will you notice that? Probably not. 
   In a real scenario, pages will be way smaller, the data will be compressed, which means taking less Memory space, 
   so these delays will be shorter.
   
@@ -270,7 +271,7 @@ that the Browser and Mac will have to decide how to provide a memory for a new P
   
 But if you will work on several applications simultaneously, let's say you will be editing RAW Photo, and switching 
 to a Video Editor of 60 minutes movie you are creating, both of them can require a significant amount of memory (RAM),
-maybe 16Gb each, which means that delays of switching between applications can be way more noticeable. But again, 
+maybe 16 GB each, which means that delays of switching between applications can be way more noticeable. But again, 
 we are talking about Professional work.
 
 Editing Office documents do not require a lot of Memory. A single Web Page in the Browser does not require a lot of 
@@ -279,6 +280,114 @@ software with multiple components, like a Database, Docker containers, multiple 
 might require more memory. Still, we are talking about developing large scalable systems working with a lot of data, 
 not a backend website for your Indie Project.
 
-## How much Storage do you need? 256Gb, 512Gb, 1Tb...
+### Memory Upgrades
 
+Newer MacBook and Mac Mini can't upgrade the Memory after purchase. For iMac, iMac Pro, and Mac Pro, you can upgrade it,
+for example, see [Install memory in an iMac](https://support.apple.com/en-us/HT201191). One of the best suppliers of
+memory upgrades is [OWC](https://eshop.macsales.com/shop/apple/memory/). If you are buying an older Mac, this is the 
+place to check if you can upgrade Memory on the older Mac. When you purchase a new Mac, sometimes it is cheaper to 
+purchase the memory upgrade from OWC than paying for the memory upgrade at Apple. For example, on Apple Store, an 
+upgrade for iMac 27 from `8 GB` to `64 GB` costs `$1,000`, and with OWC, you can purchase it for around `$300`.
 
+## How much Storage do you need? 256 GB, 512 GB, 1 TB...
+
+How much storage do you need? It is a hard question to answer. If you are buying a Desktop, you can always purchase 
+external storage (which sells at various speeds and sizes). It could be a little bit harder for laptops to carry the 
+external storage you need to access too often.
+
+It is impossible to upgrade the Storage on newer Mac Minis, MacBooks. It is hard to do with on iMacs and iMacs Pro, 
+and it is possible on Mac Pro. So if you are purchasing a new Mac, make sure to buy a Storage with the amount you 
+need for now and future. It was possible to upgrade the storage on older Macs.
+
+Let's calculate how much storage you really need.
+
+- MacOS will use some storage, somewhere between 10 GB and 40 GB. It depends on how many things you will 
+  install and how long you will use it without resetting it.
+  
+- Most applications do not take a lot of space. If you install many applications, including Adobe applications, Office 
+  apps, Video, and tools, that can take 20-40 GB. If you plan to just use the applications, 256 GB is more than enough.
+  
+- Games can take a lot of space, depends on the games. Some AAA games can easily take up to 100 GB of space. But the good 
+  thing that Mac does not really support a lot of AAA games. And if you are planning to use Stadia, you don't need any 
+  space at all for these games. If you plan to install some games, 256 GB still be enough for you.
+  
+- If you plan to install the Windows in the Virtual Machine or as BootCamp, consider purchasing at least 512 GB, as
+  both OS and applications will take some space. And you will have to decide how much storage you need to pre-allocate
+  for Windows when installing it on BootCamp. It is easier with Virtual Machine as the disk expands on use, so it is
+  possible still to use 256 GB, but it could be tough.
+  
+- If you are a Software Developer, that all depends on what you do. IDEs, Editors don't take a lot of space. 
+  Virtual Machines, Simulators do. So if you are building Android, iOS applications, maybe it will be a good idea 
+  to get at least 512 GB. If you are building web sites and back ends in VSCode, you can easily use Mac with 256 GB.
+  
+- Music does not take a lot of space (if you are not using FLAC, but if you do, you don't need my advice). You can
+  download your whole library, and it is probably not going to be more than 10 GB.
+  
+- Movies take some space. Each downloaded Movie from iTunes can be between 3-10 GB. TV Show episode can be about 1 GB. 
+  If you plan to download many movies, take this into account. If you plan to download a few movies for traveling, 
+  you can always keep them on external storage.
+  
+- Photos and Videos. If you are planning to make a lot of Photos and Videos and want to store them all on Mac, 
+  that might require a lot of space. Each not-RAW photo can be between 2 and 5 MB. With videos, if you plan to 
+  make 10 minutes 4K videos, that can easily be 3 GB - 4 GB of storage. In a regular vacation week, you take 
+  1,000 photos, that requires around 4 GB of storage. But if you make 30 10 minutes videos, that could be 100 GB of storage. 
+  But you probably already know that after using your phone. But you can always offload photos and videos to 
+  an external device, including iCloud.
+  
+So, hope this list gives you an approximate idea of how much storage you need. But please double it when you make 
+an order if you are purchasing a laptop. You are planning to use it for a while, and at some point, you will have 
+other needs for Storage.
+
+Let's take a look at other ways how you can expand the storage.
+
+### Internal Storage, External Storage, and iCloud
+
+The benefit of using internal storage is usability, especially for laptops. You don't need to carry the drive around. 
+And MacOS is designed to have one Disk, kind of. If you need external storage, you always need to copy-paste things 
+between the internal and external drives. You cannot move your whole Photos library there. Because when you will to 
+access Photos when the drive is disconnected, things will not work as you expect. It is different for Desktops. 
+You can always keep it plugged in. And move all the libraries, movies, and even install applications on the 
+external drive.
+
+It used to be that Internal Drives were way faster than External Drives, but not anymore. You can purchase an 
+expensive external 2 TB NVMe SSD with speeds of 3 GB/s 
+[LaCie Rugged SSD Pro 2TB](https://www.amazon.com/LaCie-Rugged-Solid-State-Drive/dp/B07X229YLR/) for $700.
+Upgrade from 512 GB to 2 TB for MacBook Pro costs $800, so not a big difference for convenience.
+
+External Drives' perfect usage is storing files that you aren't planning to access that often. It could be your 
+Videos, Photos, or any other work files. For example, if you are flying a Drone and recording many 4K videos, 
+those videos can be several hundred GB. But those are just the RAW files that you will use later to make some 
+nice looking videos. So you can keep your RAW files on External Drive, you can connect it when you need it to 
+work on your project. 
+
+iCloud or any other Cloud Storage (Dropbox, Google Drive, OneDrive) is a different kind of External Storage. 
+Even if you have a lot of storage on your Laptop, you should consider storing some data in the Cloud that will 
+provide you a backup of your data if you are going to break or lose your laptop. The speed of downloading files 
+from Cloud Storage always depends on your Internet Provider's speed. If you have 100 Mbps (that is around 12.5 MB/s). 
+Internet speed measures in bits per second, and drive speed measures in bytes per second (one byte is 8 bit). 
+So it will take 1 second to download 3 photos from your Cloud storage. Yes, it is slow, but again, if we are 
+talking about working with Office files or photos, they all take less than 10 MB, so we can access them in a
+matter of seconds. But if you want to download a 4K video, that might be a 3 GB file for 10 minutes video, 
+which can take 4 minutes to download.
+
+### iCloud, HDD, Fusion Drive, or SSD
+
+Internal Storage is not a brainer. You want to get the fastest possible storage. As we discussed earlier, 
+MacOS uses this storage for caching (swapping) memory. So if you don't have enough Memory (RAM), you want 
+to support it with fast Storage. SSD drives can be different. There is a regular SATA SSD (with speed 500 MB/s) 
+and NVMe SSD (with speed between 1 - 5 GB/s). Working with HDD or Fusion Drive as Internal Storage can be slow. 
+As an example, Microsoft Word size is 2 GB. With HDD (speed 100 MB/s), it will take 20 seconds to fully load 
+Microsoft Word, with SSD (speed 500 MB/s) just 4 seconds, with SSD NVMe (speed 3 GB/s) less than a second. 
+Fusion Drives have a slight advantage over HDD, as they include fast SSD storage with them for most accessed 
+files. So if you are working with a small subset of files (Applications, Documents), you might see the same 
+speeds as working with SSD drives. But there were some issues with some software working with Fusion Drives.
+
+For External Drive, it is different. It is a question for you about what you are going to store there. 
+How fast you want to access this data. Documents, Photos don't require fast storage, as those are small files. 
+Videos, Games do. 
+
+## Summary
+
+Hope you find this useful. Please share this with your friends and family. If you feel like I can cover more topics, or 
+some topics aren't clear, feel free to [email me](mailto:whichmacshouldibuy@loshadki.app) or open an 
+[issue](https://github.com/loshadki/whichmacshouldibuy/issues/new) on GitHub {{< fa fab github >}}.
