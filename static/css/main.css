@@ -48,6 +48,18 @@ article h1, article h2, article h3 {
     text-align: center;
 }
 
+article img {
+    max-width: 60%;
+    display: block;
+    background: #272822;
+    border-radius: 10px;
+    border: #E8E8E811 1px solid;
+    padding: 10px;
+    margin: 0 auto;
+    -webkit-filter: drop-shadow(4px 4px 5px rgba(0,0,0,0.5));
+drop-shadow(4px 4px 5px rgba(0,0,0,0.5));
+}
+
 a, a:visited, a:hover {
     color: #2797ff;
     text-decoration: none;

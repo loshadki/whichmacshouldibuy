@@ -17,6 +17,8 @@ to use it for? Macs aren't cheap. Even if you get the cheapest Mac Mini for `$69
 a monitor, keyboard, mouse, which can add up to `$1000`. The cheapest laptop, MacBook Air, starts at around `$1,000`. 
 So it goes back to the same question, how are you planning to use it? 
 
+![Mac or iPad](/images/macvsipad.png)
+
 ### Mac or iPad
 
 If the main reason for you to purchase a Mac to browse the Internet, watch movies, occasionally play games, edit 
@@ -28,6 +30,8 @@ Apple Keyboard for around `$100`, or buy something cheap from Amazon for `$30`.
 
 If you are a software developer or studying to be one, that is not an option. People have tried a lot to use an 
 iPad for software development. It is possible, but not easy.
+
+![Mac or Windows](/images/macvswindows.png)
 
 ### Mac or Windows
 
@@ -76,6 +80,8 @@ Verify that the previous owner turned off Find My Mac. Apple has a page for peop
 or selling their Macs (see [What to do before you sell, give away, or trade-in your Mac](https://support.apple.com/en-us/HT201065)).
 Maybe send this link to the seller to make sure he will do all the steps. Most important for you is to make sure that 
 the seller will sign off from iCloud, which will disable the Find My Mac feature.
+
+![Battery Information](/images/batteryinformation.png)
 
 If you are purchasing a laptop, verify how many cycles are on the battery (see 
 [Determine battery cycle count for Mac notebooks](https://support.apple.com/en-us/HT201585)). This page shows the maximum
@@ -299,6 +305,8 @@ It is impossible to upgrade the Storage on newer Mac Minis, MacBooks. It is hard
 and it is possible on Mac Pro. So if you are purchasing a new Mac, make sure to buy a Storage with the amount you 
 need for now and future. It was possible to upgrade the storage on older Macs.
 
+![Storage](/images/storage.png)
+
 Let's calculate how much storage you really need.
 
 - MacOS will use some storage, somewhere between 10 GB and 40 GB. It depends on how many things you will 
@@ -371,6 +379,8 @@ matter of seconds. But if you want to download a 4K video, that might be a 3 GB 
 which can take 4 minutes to download.
 
 ### iCloud, HDD, Fusion Drive, or SSD
+
+![Storage](/images/storagespeed.png)
 
 Internal Storage is not a brainer. You want to get the fastest possible storage. As we discussed earlier, 
 MacOS uses this storage for caching (swapping) memory. So if you don't have enough Memory (RAM), you want 
