@@ -2,6 +2,7 @@
 
 ---
 
+***Updated (2021-11-02)**: refreshed for new M1 Pro / Max chips*
 
 ## Do you want to ask a community?
 
