@@ -132,13 +132,15 @@ heavy gamers considering
 buying a Windows Laptop or PC. But let's say you have decided to play games on Mac.
 
 - **Native games**. If you are not looking for specific games, there are many games with native support for Mac, 
-  available on Apple Store and Steam.
+  available on Apple Store and Steam. If game is available for macOS, the performance of M1 Max chip will be great.
+  I [could run](https://www.outcoldman.com/en/archive/2021/11/01/mbp-14-2021-review/#gpu-performance) Diablo 3 on battery with 
+  120FPS using full resolution of internal display and high settings.
 
 - **Gaming in Windows Guest Virtual Machine**. You can use Parallels or VMWare to install Windows as a Guest in 
-  Virtual Machine, but you will not get full graphics performance for Virtual Machine. You can play some 
-  old but good games, like Titan Quest. This option is available only for Intel-based Macs. Support for Apple Silicon 
-  is in Preview. On Apple Silicon, you can only run Windows ARM (which means not all applications are available for 
-  this Windows version).
+  Virtual Machine, but you will not get full graphics performance for Virtual Machine. You can still play some 
+  old but good games, like Titan Quest. On Apple Silicon, you can only run Windows ARM (which means not all applications 
+  will work). And the only supported version of Windows is Windows 11 Dev Channel. Which means you will run a beta
+  version of Windows OS.
   
 - **Gaming in [Bootcamp](https://support.apple.com/boot-camp)**. Available only for Intel-based Macs 
   (no support for Apple Silicon). Depending on the 
@@ -176,14 +178,11 @@ and less heating, while providing the same performance, and sometimes even bette
 I spend 90% of my time on the MacBook Pro with M1. But there are some issues to consider. 
 
 Let's talk about who should **not** choose a Mac with Apple Silicon (M1):
-
-- You want a laptop with a larger screen (16"). Currently, only the MacBook Air (13" screen), and MacBook Pro 13" are 
-  available with Apple Silicon.  The Mac Mini is also available with Apple Silicon, but that doesn't fit into our laptop catagory.
   
-- You are using some software that you cannot run on Apple Silicon. You can verify the list of the software at 
+- You are using some software that you cannot run on Mac. You can verify the list of the software at 
   [Is Apple silicon ready?](https://isapplesiliconready.com).
   
-- You need to run Windows. Currently, Parallels is available in Preview. You can only install Windows ARM (preview), 
+- You need to run Windows. You can only install Windows ARM (preview from Dev Channel), 
   which cannot run all the Windows software. It is a very high chance that it will not run your specific 
   software on this version of Windows.
 
@@ -191,9 +190,8 @@ Let's talk about who should **not** choose a Mac with Apple Silicon (M1):
   [Google Stadia](https://stadia.com/link/referrals?si_rid=2261358621061005807&si_rt=1) (Cloud Gaming) are 
   still great options.
   
-- You are a developer and have specific needs to test on x64 CPU, or you need to run a lot of Virtual Machines on your
-  Mac. If you are, I am sure you know which Mac you need.
-  
+- You are a developer and have specific needs to test on x64 CPU. If you are, I am sure you know which Mac you need.
+
 I will answer some questions about if it is ok to purchase a Mac with Apple Silicon:
 
 - You plan to use Mac for Video, Audio, Photo editing, and Office apps. All of that available for Mac with Apple Silicon.
@@ -201,10 +199,13 @@ I will answer some questions about if it is ok to purchase a Mac with Apple Sili
 - You are a software developer. At first, let me mention that your company probably provides you a Mac if you are doing 
   it professionally. They decide when it is time to switch to Apple Silicon. If you are an Indie developer or a 
   contractor, developing for Web, backend, iOS, and macOS, many tools are catching up. JetBrains IntelliJ has 
-  native support for Apple Silicon. Docker is in preview, and you can run a lot of images in ARM64 architecture 
-  (a lot of others in emulation). Currently building Android applications will probably require using a physical device for testing, as 
+  native support for Apple Silicon. Docker is available, and you can run a lot of images in ARM64 architecture 
+  (a lot of others in emulation). Building Android applications will probably require using a device, as 
   Android Emulator is in preview and has many 
   [Known Issues](https://androidstudio.googleblog.com/2020/12/android-emulator-apple-silicon-preview.html).
+
+- You want to get the best performance. The new M1 Pro / Max chips have great GPU and CPU performance and available
+  with 64 GB options of Memory, up to 8 TB of fast NVMe storage.
   
 ### Apple Silicon is not for me, which Intel CPU to Choose
 
@@ -228,9 +229,18 @@ If you have decided to purchase an Intel Mac, you will have to choose a discrete
 You might want to upgrade to a more powerful GPU with more memory if you are a Video Editor (**Professionally**), 
 working a lot with RAW Photos (**Professionally**), and still planning to try to play some AAA games on Mac.
 
+### Which Apple Silicon to Choose (M1, M1 Pro, M1 Max)
+
+Most users will be fine with M1, as it already provides great CPU performance, M1 Pro and M1 Max provide better (up to 40%)
+multi-core CPU performance, and huge performance (up to 4 times) upgrade for GPU. 
+
+You should consider M1 Pro or M1 Max only if you are doing heavy GPU work, like 4K video editing, or need it for development,
+or want to play those few AAA games available for macOS on high settings. Also, if you need more than 16 GB of RAM, want
+larger screen, more embedded fast disk storage.
+
 ## MacBook Air or MacBook Pro 13"
 
-I am talking only about Apple Silicon Macs here. For Intel-based read comparison of MacBook Pro 13" and MacBook Pro 16".
+I am talking only about Apple Silicon M1 Macs here. For M1 Max and Pro read comparison of MacBook Pro 14" and MacBook Pro 16".
 
 If you are looking at purchasing Apple Silicon MacBook, the difference between MacBook Air and MacBook Pro is not 
 that significant. MacBook Pro has TouchBar (not many people use it), has fans (is not required that often with Apple 
@@ -238,13 +248,10 @@ Silicon), slightly better battery life, and has a better Display. That all adds 
 
 If you can afford it, go with MacBook Pro 13" Apple Silicon.
 
-## MacBook Pro 13" or MacBook Pro 16"
+## MacBook Pro 14" or MacBook Pro 16"
 
-You should consider MacBook Pro 16" only if you specifically need an Intel-based Mac (see above if you need it) with a 
-lot of RAM for running Virtual Machines, or if you need a laptop with a larger screen.
-
-The performance of MacBook Pro 13" with Apple Silicon for most of the tasks is comparable to the MacBook Pro 16" with 
-the most expensive Intel CPU.
+The difference between new 2021 MacBook Pro 14" and MacBook Pro 16" are just a screen size. You can configure the same
+specifications for the 14" laptop as 16" laptop. 16" laptop might have slightly better battery life as well.
 
 ## How much Memory (RAM) do you need? 8 GB, 16 GB, 32 GB...
 
